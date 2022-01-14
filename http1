@@ -1,0 +1,90 @@
+Fetch & Callbacks 2 > HTTP Requests using JS | Cheat Sheet
+HTTP Requests using JS | Cheat Sheet
+1. Fetch
+The fetch() method is used to fetch resources across the Internet.
+
+Syntax: fetch(URL, OPTIONS)
+
+URL - URL of the resource
+OPTIONS - Request Configuration
+
+1.1 Request Configuration
+We can configure the fetch request with many options like,
+
+Request Method
+Headers
+Body
+Credentials
+Cache, etc.
+We can configure a request by passing an options object with required properties and their values.
+
+For example,
+
+JAVASCRIPT
+2. Making HTTP Requests using Fetch
+The method property value in the options object can be GET, POST, PUT, DELETE, etc. The default method is GET.
+
+2.1 GET
+The GET method can be used to retrieve (get) data from a specified resource.
+
+For example,
+
+JAVASCRIPT
+2.2 POST
+The POST method can be used to send data to the server.
+
+ 
+JAVASCRIPT
+Expand
+2.3 PUT
+The PUT method can be used to update the existing resource.
+
+ 
+JAVASCRIPT
+Expand
+2.4 DELETE
+The DELETE method can be used to delete the specified resource.
+
+ 
+JAVASCRIPT
+Expand
+Try out the different HTTP Request Methods and check the output in the below Code Playground console.
+
+HTML
+CSS
+JAVASCRIPT
+Inspect
+
+
+3. HTTP Response Object Properties and Methods
+Response Object provides multiple properties to give more information about the HTTP Response.
+
+status (number) - HTTP status code
+statusText (string) - Status text as reported by the server, e.g. "Unauthorized"
+headers
+url
+text() - Getting text from response
+json() - Parses the response as JSON
+For example,
+
+ 
+JAVASCRIPT
+Expand
+In the above example, we can get the response status as 200 when the request is success.
+
+Try out accessing the different properties and methods of the HTTP Response Object like url, text(), json(), etc. and check the output in the below Code Playground console.
+
+HTML
+CSS
+JAVASCRIPT
+Inspect
+
+Submit Feedback
+
+MARKED AS COMPLETE
+Notes
+
+Discussions
+
+Notes
+ NEW NOTE
